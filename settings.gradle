@@ -1,0 +1,1 @@
+include ':QR_control_door', ':libzxing'

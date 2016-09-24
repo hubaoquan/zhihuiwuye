@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">QRScandoor</string>
+    <string name="submit">申请</string>
+    <string name="transmit">转发</string>
+
+    <!--新闻公告相关的字符串-->
+    <string name="news_01"></string>
+    <string name="news_02"></string>
+    <string name="newsfg_title">小区通知</string>
+
+    <string name="community_code">小区编号及详细地址</string>
+</resources>
