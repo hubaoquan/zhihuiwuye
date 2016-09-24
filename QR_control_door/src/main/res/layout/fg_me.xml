@@ -156,7 +156,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="我的消息" />
+                    android:text="我的账单" />
             </LinearLayout>
         </LinearLayout>
 
@@ -189,50 +189,50 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:text="通讯录" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:background="@color/seaShell"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="2" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="我的钱包" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:background="@color/seaShell"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="2" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
                     android:text="建议反馈" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.3"
-                android:background="@color/seaShell"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageButton
-                    android:layout_width="100dp"
-                    android:layout_height="0dp"
-                    android:layout_weight="2" />
-
-                <TextView
-                    android:layout_width="100dp"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="我的消息" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.3"
-                android:background="@color/seaShell"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageButton
-                    android:layout_width="100dp"
-                    android:layout_height="0dp"
-                    android:layout_weight="2" />
-
-                <TextView
-                    android:layout_width="100dp"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="我的消息" />
             </LinearLayout>
         </LinearLayout>
 
