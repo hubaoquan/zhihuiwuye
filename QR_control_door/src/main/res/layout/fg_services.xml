@@ -8,19 +8,18 @@
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
         android:background="#555" />
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:weightSum="1">
+        android:layout_height="0dp"
+        android:layout_weight="2">
 
         <ImageView
             android:id="@+id/id_viewPager"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
             android:scaleType="fitXY"
-            android:src="@drawable/service_news"
-            />
-    </RelativeLayout>
+            android:src="@drawable/service_news" />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,10 +28,10 @@
         android:background="@color/green"
         android:orientation="vertical">
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1.26"
+            android:layout_weight="1"
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:padding="5dp">
@@ -41,86 +40,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:background="@drawable/item01"
-                android:id="@+id/button"
-                android:layout_marginStart="25dp"
-                android:layout_above="@+id/textView_wuyebaoxiu"
-                android:layout_alignParentStart="true"/>
+                android:background="@drawable/item01" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="58dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:background="@drawable/item01"
-                android:id="@+id/button2"
-                android:layout_alignBottom="@+id/button"
-                android:layout_toEndOf="@+id/button"
-                android:layout_alignTop="@+id/button"/>
+                android:background="@drawable/item01" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="60dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:background="@drawable/item01"
-                android:layout_alignBottom="@+id/button2"
-                android:layout_toStartOf="@+id/button3"
-                android:layout_marginEnd="27dp"
-                android:id="@+id/button4"
-                android:layout_alignTop="@+id/button2"/>
+                android:background="@drawable/item01" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="61dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:background="@drawable/item01"
-                android:id="@+id/button3"
-                android:layout_alignTop="@+id/button4"
-                android:layout_alignParentEnd="true"
-                android:layout_marginEnd="26dp"
-                android:layout_alignBottom="@+id/button4"/>
+                android:background="@drawable/item01" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="物业报修"
-                android:id="@+id/textView_wuyebaoxiu"
-                android:layout_alignParentBottom="true"
-                android:layout_toStartOf="@+id/button2"/>
+        </LinearLayout>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="在线缴费"
-                android:id="@+id/textView_zaixianjiaofei"
-                android:layout_alignParentBottom="true"
-                android:layout_alignEnd="@+id/button2"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="快递收发"
-                android:id="@+id/textView_kuaidishoufa"
-                android:layout_below="@+id/button4"
-                android:layout_alignEnd="@+id/button4"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="物品租赁"
-                android:id="@+id/textView_wupinzulin"
-                android:layout_below="@+id/button3"
-                android:layout_alignEnd="@+id/button3"/>
-
-        </RelativeLayout>
-
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1.25"
+            android:layout_weight="1"
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:padding="5dp">
@@ -129,82 +74,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:background="@drawable/item01"
-                android:id="@+id/button5"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentStart="true"
-                android:layout_marginStart="21dp"/>
+                android:background="@drawable/item01" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:background="@drawable/item01"
-                android:layout_alignParentTop="true"
-                android:layout_toStartOf="@+id/button7"
-                android:layout_marginEnd="20dp"
-                android:id="@+id/button8"/>
+                android:background="@drawable/item01" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:background="@drawable/item01"
-                android:layout_marginEnd="22dp"
-                android:id="@+id/button7"
-                android:layout_alignTop="@+id/button6"
-                android:layout_toStartOf="@+id/button6"/>
+                android:background="@drawable/item01" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:background="@drawable/item01"
-                android:layout_alignTop="@+id/button5"
-                android:layout_alignParentEnd="true"
-                android:layout_marginEnd="31dp"
-                android:id="@+id/button6"/>
+                android:background="@drawable/item01" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="寻物招领"
-                android:id="@+id/textView_xunwu"
-                android:layout_alignStart="@+id/button5"
-                android:layout_alignParentBottom="true"
-                android:layout_below="@+id/button5"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="爱心捐赠"
-                android:id="@+id/textView_juanzeng"
-                android:layout_alignTop="@+id/textView_xunwu"
-                android:layout_alignEnd="@+id/button8"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="远程管家"
-                android:id="@+id/textView_yuancheng"
-                android:layout_alignParentBottom="true"
-                android:layout_toEndOf="@+id/button8"
-                android:layout_below="@+id/button7"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="      全部"
-                android:id="@+id/textView_all"
-                android:layout_below="@+id/button6"
-                android:layout_toEndOf="@+id/button7"
-                android:layout_alignBottom="@+id/textView_juanzeng"/>
-
-        </RelativeLayout>
+        </LinearLayout>
 
     </LinearLayout>
 
@@ -216,7 +106,7 @@
         <ListView
             android:id="@+id/id_listView"
             android:layout_width="match_parent"
-            android:layout_height="208dp">
+            android:layout_height="match_parent">
 
         </ListView>
     </LinearLayout>
